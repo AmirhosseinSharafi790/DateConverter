@@ -1,0 +1,37 @@
+@import url("https://fonts.googleapis.com/css2?family=Seymour+One&family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap");
+body {
+  background-color: #00aeff56;
+  font-family: "Titillium Web", sans-serif;
+}
+.container {
+  color: #312b2b;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.date-input {
+  all: unset;
+  border: 3px solid #dae;
+  border-radius: 10px;
+  padding: 10px 30px;
+  margin: 5px 30px;
+}
+button {
+  all: unset;
+  border: 3px solid #dae;
+  border-radius: 10px;
+  padding: 10px 30px;
+  margin: 10px 30px;
+  cursor: pointer;
+}
+#text {
+  border-bottom: 3px solid #dae;
+}
+#enter-date-text {
+  background-color: #ddaaee6a;
+  padding: 10px 20px;
+  text-align: center;
+  border: 3px solid #dae;
+  border-radius: 20px;
+}
